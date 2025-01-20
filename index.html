@@ -3,24 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🌟 Family Fest Lucky Draw 🎉</title>
+    <title>Amaravati Green City Lucky Draw Winners</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-        <h1>🎊 Welcome to the Family Fest Lucky Draw 🎊</h1>
-        <p>Enter your name and check your luck!</p>
+    <!-- Background Audio (Hidden Initially) -->
+    <audio id="backgroundAudio">
+        <source src="Dj.m4a" type="audio/mp4">
+        Your browser does not support the audio element.
+    </audio>
 
-        <form id="entryForm">
-            <input type="text" id="name" placeholder="Enter Your Name" required>
-            <button type="submit">Get My Lucky Code 🎟️</button>
-        </form>
+    <div class="container">
+        <h1>🎉 Amaravati Green City Lucky Draw Winners 🎉</h1>
+
+        <div class="winner">
+            <h2>🥇 First Prize: Dadi Ganga Ganesh</h2>
+            <p>📞 <span>7396801539</span></p>
+            <p class="ticket">🎟️ Ticket Number: <span>271120</span></p>
+            <p class="prize">🏅 Prize: 2 Months Free Mobile Recharge</p>
+            <button class="whatsapp-btn" onclick="claimPrize('Dadi Ganga Ganesh', '271120')">Receive Prize</button>
+        </div>
+
+        <div class="winner">
+            <h2>🥈 Second Prize: Dadi Pujitha</h2>
+            <p>📞 <span>62814 17519</span></p>
+            <p class="ticket">🎟️ Ticket Number: <span>865811</span></p>
+            <p class="prize">🏅 Prize: 1 Month Free Mobile Recharge</p>
+            <button class="whatsapp-btn" onclick="claimPrize('Dadi Pujitha', '865811')">Receive Prize</button>
+        </div>
+
+        <div class="winner">
+            <h2>🥉 Third Prize: BODDEDA DHANUSH</h2>
+            <p>📞 <span>9247875606</span></p>
+            <p class="ticket">🎟️ Ticket Number: <span>119077</span></p>
+            <p class="prize">🏅 Prize: ₹100</p>
+            <button class="whatsapp-btn" onclick="claimPrize('BODDEDA DHANUSH', '119077')">Receive Prize</button>
+        </div>
+
+        <div class="winner">
+            <h2>🏅 Fourth Prize: Vegi Leela Prasad</h2>
+            <p>📞 <span>77023 88050</span></p>
+            <p class="ticket">🎟️ Ticket Number: <span>727139</span></p>
+            <p class="prize">🏅 Prize: ₹100</p>
+            <button class="whatsapp-btn" onclick="claimPrize('Vegi Leela Prasad', '727139')">Receive Prize</button>
+        </div>
+
+        <div class="winner">
+            <h2>🎖 Fifth Prize: Yellapu Srinivas</h2>
+            <p>📞 <span>92915 25303</span></p>
+            <p class="ticket">🎟️ Ticket Number: <span>476251</span></p>
+            <p class="prize">🏅 Prize: ₹100</p>
+            <button class="whatsapp-btn" onclick="claimPrize('Yellapu Srinivas', '476251')">Receive Prize</button>
+        </div>
+
     </div>
 
-    <!-- Hidden Audio Element -->
-    <audio id="winAudio" src="audio.m4a"></audio>
-
     <script src="script.js"></script>
+
 </body>
 </html>
